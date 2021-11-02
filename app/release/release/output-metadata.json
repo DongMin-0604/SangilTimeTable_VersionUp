@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "kr.hs.sangiltimetable",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 739,
+      "versionName": "4.4",
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

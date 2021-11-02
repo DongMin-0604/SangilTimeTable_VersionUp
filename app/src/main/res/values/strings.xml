@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">상미고\n시간표</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_time_table">상미고 시간표</string>
+    <string name="wiget_name">상미고 가로 시간표 위젯</string>
+    <string name="jumsim_widget">상미고 점심메뉴 위젯</string>
+    <string name="jumsim_teacher_widget">상미고 쌤 점심 위젯</string>
+    <string name="teacherwidget">상미고 가로 시간표 위젯</string>
+    <string name="wiget_name_vertical">상미고 세로 시간표 위젯</string>
+    <string name="widget_name_full">상미고 일주일 전체 시간표 위젯</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="calss_time">2학기</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="appwidget_text1">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_setting2">상미고시간표 설정</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="title_activity_extend_jumsim">Extend_jumsimActivity</string>
+</resources>

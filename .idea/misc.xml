@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/activity_class_time_table.xml" value="0.33" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/activity_setting2.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/activity_teacher_time_table.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/content_extend_jumsim.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/widget__timetable__vertical.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/mythe/SangilTimeTable (39)/app/src/main/res/layout/widget_jumsim.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

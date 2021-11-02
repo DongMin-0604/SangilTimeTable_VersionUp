@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="teacher_name">
+		<item > 이 름 </item>
+		<item >강우중</item>
+		<item >고진국</item>
+		<item >권민수</item>
+		<item >김나영</item>
+		<item >김다은</item>
+		<item >김봉수</item>
+		<item >김성태</item>
+		<item >김영석</item>
+		<item >김옥선</item>
+		<item >김용승</item>
+		<item >김우남</item>
+		<item >김정수</item>
+		<item >김한준</item>
+		<item >김희수</item>
+		<item >나홍주</item>
+		<item >노상균</item>
+		<item >노연정</item>
+		<item >류재홍</item>
+		<item >박가희</item>
+		<item >박기수</item>
+		<item >박명철</item>
+		<item >박원중</item>
+		<item >박준영</item>
+		<item >배관</item>
+		<item >배현경</item>
+		<item >백주석</item>
+		<item >사무샘</item>
+		<item >설숙영</item>
+		<item >송태원</item>
+		<item >신미희</item>
+		<item >신상희</item>
+		<item >심우창</item>
+		<item >안광오</item>
+		<item >엄도용</item>
+		<item >오영신</item>
+		<item >위혜선</item>
+		<item >윤성웅</item>
+		<item >윤춘삼</item>
+		<item >윤필상</item>
+		<item >이규현</item>
+		<item >이상</item>
+		<item >이상운</item>
+		<item >이선애</item>
+		<item >이영옥</item>
+		<item >이용수</item>
+		<item >이원종</item>
+		<item >이정천</item>
+		<item >이지용</item>
+		<item >이충근</item>
+		<item >이태진</item>
+		<item >임수경</item>
+		<item >장은아</item>
+		<item >전시현</item>
+		<item >정상천</item>
+		<item >정선이</item>
+		<item >정수현</item>
+		<item >정순기</item>
+		<item >정원혁</item>
+		<item >정재훈</item>
+		<item >조경자</item>
+		<item >조아라</item>
+		<item >조인호</item>
+		<item >조현민</item>
+		<item >최운섭</item>
+		<item >최원영</item>
+		<item >최지철</item>
+		<item >허선나</item>
+		<item >홍나영</item>
+		<item >홍석범</item>
+		<item >황혜진</item>
+	</string-array>
+
+
+     <string-array name="yearhak">
+        <item >1학년</item>
+        <item >2학년</item>
+        <item >3학년</item>
+    </string-array>
+    <string-array name="classban">
+        <item >1반</item>
+        <item >2반</item>
+        <item >3반</item>
+        <item >4반</item>
+        <item >5반</item>
+        <item >6반</item>
+        <item >7반</item>
+        <item >8반</item>
+        <item >9반</item>
+        <item >10반</item>
+        <item >11반</item>
+    </string-array>
+    <string-array name="list_widget">
+        <item >학년반 위젯시간표</item>
+        <item >선생님 위젯시간표</item>
+        <item >학년반.선생님 토글 위젯시간표</item>
+    </string-array>
+    <integer-array name="list_value">
+        <item >1</item>
+        <item >2</item>
+        <item >1</item>
+    </integer-array>
+</resources>

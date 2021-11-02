@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/sangil_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#6AB7E3"
+        android:textAlignment="center"
+        android:overScrollMode="ifContentScrolls" />
+    <Button
+        android:id="@+id/playBT_ipsi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/gyogbt"
+        />
+    <WebView
+        android:id="@+id/webView_ipsi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:fitsSystemWindows="true"
+        android:layout_margin="3dp"
+        />
+
+</LinearLayout>

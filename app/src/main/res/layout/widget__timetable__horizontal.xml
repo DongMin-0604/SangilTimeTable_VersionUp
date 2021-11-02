@@ -1,0 +1,431 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_timetable_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/wg_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="2sp"
+        android:paddingRight="4sp"
+        android:paddingTop="3sp"
+        android:paddingBottom="5sp"
+        android:orientation="vertical"   >
+        <!--    android:background="#4081e1c2"-->
+        <!-- android:background="@drawable/widget_bg1" -->
+
+
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+
+            <TextView
+                android:id="@+id/widget_timer_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="상미고시간표"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#54FF00"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:shadowRadius="2"
+                android:shadowColor="#000500" />
+            <TextView
+                android:id="@+id/widget_timer_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5sp"
+                android:text="곧 시작됩니다...."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFE600"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:shadowRadius="2"
+                android:shadowColor="#000000"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1sp"
+            android:layout_marginRight="1sp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/widget_title_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207" />
+
+                <TextView
+                    android:id="@+id/widget_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="조금"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"        />
+                <TextView
+                    android:id="@+id/widget_tv1_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"   >
+                <TextView
+                    android:id="@+id/widget_title_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="기다리"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+                <TextView
+                    android:id="@+id/widget_tv2_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"   >
+                <TextView
+                    android:id="@+id/widget_title_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="시면"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+
+                <TextView
+                    android:id="@+id/widget_tv3_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"   >
+                <TextView
+                    android:id="@+id/widget_title_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="곧"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"        />
+                <TextView
+                    android:id="@+id/widget_tv4_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"        />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"   >
+                <TextView
+                    android:id="@+id/widget_title_tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text=".."
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"         />
+                <TextView
+                    android:id="@+id/widget_tv5_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"         />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"   >
+                <TextView
+                    android:id="@+id/widget_title_tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="시작"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+                <TextView
+                    android:id="@+id/widget_tv6_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget_title_tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7교시"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textColor="#aafbff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#072207"/>
+
+                <TextView
+                    android:id="@+id/widget_tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="됩니다"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+                <TextView
+                    android:id="@+id/widget_tv7_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/widget_line"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:shadowColor="#100010"       />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
